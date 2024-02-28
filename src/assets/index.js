@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import mimoslogo from "./mimoslogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,12 +30,15 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import alirahealth from "./company/alirahealth.jpeg";
+import trustwave from "./company/trustwave.jpg";
+import ashdesigns from "./company/ashdesigns.png";
 import bepatient from "./company/bepatient.jpeg";
 import drclean from "./company/drclean.png";
 import signarama from "./company/signarama.png";
 import percoid from "./company/percoid.jpeg";
 import unic from "./company/unic.jpeg";
 import glomeworks from "./company/glomeworks.png";
+import zgalaxy from "./company/zgalaxy.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -42,9 +46,13 @@ import tripguide from "./tripguide.png";
 import ayna from "./ayna.png";
 import emprompt from "./emprompt.png";
 import empresa from "./empresa.png";
+import dadosankhuwasabha from "./dadosankhuwasabha.png";
+import securitycolony from "./securitycolony.png";
+import aynanext from "./aynanext.png";
 
 export {
   logo,
+  mimoslogo,
   backend,
   creator,
   mobile,
@@ -72,6 +80,8 @@ export {
   shopify,
   starbucks,
   alirahealth,
+  trustwave,
+  ashdesigns,
   bepatient,
   drclean,
   signarama,
@@ -85,4 +95,8 @@ export {
   ayna,
   emprompt,
   empresa,
+  zgalaxy,
+  dadosankhuwasabha,
+  securitycolony,
+  aynanext,
 };
