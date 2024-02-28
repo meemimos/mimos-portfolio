@@ -41,13 +41,10 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I have proficient skills in TypeScript and JavaScript, my expertise
-        extends to React, Node.js, Angular, Ionic, NgRx, Node.js, Capacitor, iOS
-        and Android app development. On the otherside I have experience of
-        Blockchain and Web3 development ecosystem empowering me to excel in
-        diverse technological landscapes. I swiftly embrace novel concepts,
-        collaborating closely with clients to architect efficient, scalable,
-        user-centric solutions. Let's collaborate to bring your visions to life
-        with vibrancy and innovation!
+        extends to React, Redux, NextJS, NodeJS, TypeScript, GraphQL, SQL, TailwindCSS, HTML/CSS and JavaScrip. I do have proven strength in various tasks such as requirement analysis, system architecture design, and developing web applications that are secure, scalable and user-friendly.
+        <div>
+          On the otherside, with a solid foundation in Blockchain and Web3 development, I bring a wealth of experience to the table, poised to thrive in various technological arenas. I adeptly assimilate new ideas and work closely with clients to design streamlined, scalable, and user-focused solutions. Join forces with me, and together, we can breathe life into your visions with dynamic creativity and innovative approaches!
+        </div>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

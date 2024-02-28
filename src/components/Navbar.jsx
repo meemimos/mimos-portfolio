@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, mimoslogo } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -17,15 +17,15 @@ const Navbar = () => {
     >
       <Link
         to="/"
-        className="flex items-center gap-2"
+        className="flex items-center gap-2 cursor-pointer"
         onClick={() => {
           setActive("");
           window.scrollTo(0, 0);
         }}
       >
-        <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-        <p className="text-white text-[18px] font-bold cursor-pointer flex">
-          Kush&nbsp;<span className="sm:block hidden">|&nbsp;Portfolio</span>
+        <img src={mimoslogo} alt="logo" className="w-9 h-9 object-contain" />
+        <p className="text-white text-[18px] font-light cursor-pointer flex" style={{marginLeft: "-7px"}}>
+          imos&nbsp;<span className="sm:block hidden">|&nbsp;Portfolio</span>
         </p>
       </Link>
       <ul className="list-none hidden sm:flex flex-row gap-10">
